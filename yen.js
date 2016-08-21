@@ -4,7 +4,7 @@ var listOfActivitiesInput = document.getElementById("textActivity");
 var randomizeAct = listOfActivities;
 var randomizeAct = Math.random();
 
-//testing commit
+
 
 function insert() {
 listOfActivities.push(listOfActivitiesInput.value);
@@ -16,8 +16,8 @@ if (randomizeAct < 0.34) {
 	randomizeAct = listOfActivities[2];
 }
 
-document.write("Do " + randomizeAct});
-
+document.write("Do " + randomizeAct);
+}
 
 //should probably change this to a while loop
 //for(var i = 0; i < 3; i++)
